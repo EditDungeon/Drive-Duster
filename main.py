@@ -50,7 +50,7 @@ def on_clean_button_click():
             print(f"Error deleting {path}: {e}")
     
     freed_mb = total_freed / (1024 * 1024)
-    tk.Label(root, text=(f"\nTotal storage freed: {freed_mb:.2f} MB"), fg="black", bg="white", font=("Segoe Print", )).pack()
+    tk.Label(root, text=(f"\nTotal storage freed: {freed_mb:.2f} MB"), fg="black", bg="white", font=("Segoe Print", 32)).pack()
 
 
 root = tk.Tk()
